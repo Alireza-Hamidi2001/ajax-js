@@ -9,6 +9,16 @@ html {
   box-sizing: border-box;
 }
 
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+  .countries {
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+
 body {
   font-family: system-ui;
   color: #555;
@@ -29,7 +39,6 @@ body {
 .countries {
   /* margin-bottom: 8rem; */
   display: flex;
-
   font-size: 2rem;
   opacity: 0;
   transition: opacity 1s;
