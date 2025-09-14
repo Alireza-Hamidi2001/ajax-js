@@ -1,0 +1,11 @@
+{
+    "name": "ajax_first_api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "script.js",
+    "scripts": {
+        "start": "live-server"
+    },
+    "author": "",
+    "license": "ISC"
+}
